@@ -25,7 +25,7 @@ def index(request):
         "list": item_list,
         "title": "NOTEPAD LIST",
     }
-    return render(request, 'NotePad/index.html', page)
+    return render(request, 'index.html', page)
 
 
 ### function to remove item, it receive NotePad item_id as primary key from url ###
